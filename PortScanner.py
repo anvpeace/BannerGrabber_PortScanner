@@ -4,7 +4,7 @@ import socket
 
 # AF_INET specifies 1pv4 protocol SOCK_STREAM specifies connection 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.settimeout(10)
+s.settimeout(5)
 
 host = input("Please enter the ip address you want to scan: ")
 port = int(input("Enter the port number you want to scan: "))
